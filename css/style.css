@@ -3,6 +3,7 @@
   --hunter-green: rgb(124, 161, 107);
   --taupe-gray: #8d818cff;
   --pakistan-green: rgb(43, 87, 34);
+  --navi: rgb(99, 130, 93);
   --eerie-black: #1e1e1eff;
   --silver: #c4c4c4ff;
   --white: #edfbf0;
@@ -49,21 +50,6 @@ p {
   color: var(--eerie-black);
 }
 
-a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-li:hover {
-  transform: translateY(-5px);
-  color: var(--pakistan-green);
-}
-
-li {
-  list-style: none;
-  transition: transform 0.3s ease;
-  font-weight: bold;
-}
 
 .wave-divider {
   line-height: 0;
@@ -83,16 +69,63 @@ li {
 
 /* Header */
 
+a {
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    color: var(--pakistan-green);
+  }
+  
+  li {
+    list-style: none;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+  }
+
 header {
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+/* Standard Hintergrund für den Container */
 nav .container {
-  background-color: var(--pakistan-green);
-  border-radius: 6px;
-}
+    border-radius: 6px;
+    height: 60px;
+    transition: background-color 0.3s ease; /* sanfter Übergang */
+  }
+  
+  
+  /* Hamburger Menü Button */
+  .navbar-toggler {
+    /* background-color: transparent; */
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Menü Links */
+  .nav-link {
+    color: var(--white);
+  }
+  
+  .nav-link:focus, .nav-link:hover {
+    color: var(--pakistan-green);
+  }
+  
+  .navbar-collapse {
+    background-color: var(--navi);
+    border-radius: 6px;
+  }
+  
+
+
 
 /* HEADER END */
 
@@ -340,7 +373,13 @@ nav .container {
 }
 
 /* Responsiveness */
+
+
 @media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
   .footer .row {
     text-align: center;
   }

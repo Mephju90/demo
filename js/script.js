@@ -29,3 +29,15 @@ function enableMap() {
   document.getElementById("map-consent-box").style.display = "none";
   mapContainer.style.display = "block";
 }
+
+// hamburgher
+
+  // Schließt das Hamburger-Menü nach einem Klick auf einen Link
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link) {
+    link.addEventListener('click', function() {
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+      }
+    });
+  });
