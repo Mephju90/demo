@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow" />
 
     <title>Dr. Blauth</title>
     <!-- FONTS -->
@@ -62,7 +62,7 @@
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="#leistungen">Leistungen</a></li>
                 <li><a href="#über-mich">Über mich</a></li>
-                
+                <li><a href="#anfahrt">Anfahrt</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
               </ul>
             </div>
@@ -91,7 +91,9 @@
         <div class="container mt-5">
           <div class="row">
             <div class="col-9">
-              <h2>Internistische Praxis</h2>
+              <h2 class="text-start">
+                Facharzt für Innere Medizin in Bad Schönborn
+              </h2>
               <p>
                 Ihre Gesundheit liegt uns am Herzen! Als erfahrener Arzt biete
                 ich Ihnen eine umfassende Betreuung, die weit über die
@@ -311,7 +313,7 @@
 
       <!-- ÜBER MICH ENDE -->
 
-      <!-- KONTAKT -->
+      <!-- ANFAHRT -->
       <!-- Obere Welle -->
       <div class="wave-divider top flip">
         <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
@@ -321,6 +323,56 @@
           ></path>
         </svg>
       </div>
+      <section class="anfahrt d-flex align-items-center">
+        <div class="container d-flex justify-content-center flex-column">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-start">Anfahrt</h2>
+              <p>
+                Meine Praxis befindet sich in Bad Mingolsheim, in unmittelbarer
+                Nähe zum Bahnhof Bad Schönborn-Kronau. Die genaue Adresse sowie
+                eine interaktive Karte finden Sie unten.
+              </p>
+            </div>
+          </div>
+
+          <!-- Hinweisbox für Zustimmung -->
+          <div class="row">
+            <div class="col">
+              <div id="map-consent-box" class="text-start mt-4">
+                <p>
+                  Durch das Aktivieren der Karte stimmen Sie zu, dass Daten an
+                  Google übermittelt werden. Weitere Informationen finden Sie in
+                  unserer
+                  <a href="/datenschutz" target="_blank">Datenschutzerklärung</a
+                  >.
+                </p>
+                <button onclick="enableMap()" class="btn btn-primary mt-2">
+                  Karte anzeigen
+                </button>
+              </div>
+
+              <!-- Platzhalter für die Google Map -->
+              <div
+                id="google-map"
+                style="display: none; margin-top: 20px"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Untere Welle -->
+      <div class="wave-divider bottom flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"
+            fill="var(--leistung)"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- KONTAKT -->
+
       <section class="kontakt">
         <div class="container">
           <div class="row justify-content-center">
@@ -355,15 +407,6 @@
           </div>
         </div>
       </section>
-      <!-- Untere Welle -->
-      <div class="wave-divider bottom flip">
-        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-          <path
-            d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"
-            fill="var(--leistung)"
-          ></path>
-        </svg>
-      </div>
     </main>
 
     <footer class="footer">
