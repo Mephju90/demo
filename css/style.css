@@ -117,9 +117,13 @@ nav .container {
 
 .leistungen {
   background-color: var(--leistung);
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
+}
+
+#leistungen {
+    scroll-margin-top: 300px;
 }
 
 .leistung-box {
@@ -193,6 +197,7 @@ nav .container {
   .über-mich-section {
     background-color: var(--gray);
     padding: 50px 0;
+    scroll-margin-top: 100px;
   }
   
   h2 {
@@ -278,7 +283,12 @@ nav .container {
 /* KONTAKT */
 .kontakt {
   background-color: var(--leistung);
-  /* height: 100vh; */
+  height: 80vh;
+  
+}
+
+#kontakt {
+    scroll-margin-top: 150px;
 }
 
 /* Footer */
