@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Dr. Blauth</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS ENDE -->
+
+    <!-- FAVICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- FAVICON ENDE -->
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP ENDE -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS ENDE -->
+
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- NAVI -->
+    <header>
+      <nav class="d-flex justify-content-center mt-4">
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col-6 mt-4">
+              <ul class="d-flex justify-content-around">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="#über-mich">Über mich</a></li>
+                <li><a href="#leistungen">Leistungen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- NAVI ENDE -->
+    <main>
+      <div class="header-hero"></div>
+      <!-- HERO -->
+      <section class="hero mt-4">
+        <div class="container header">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Willkommen bei Dr. med. Matthias Blauth</h1>
+              <p>Ihr Partner für Gesundheit und Wohlbefinden</p>
+              <a href="#leistungen" class="btn btn-primary me-5"
+                >Meine Leistungen</a
+              >
+              <a href="#kontakt" class="btn btn-primary">Jetzt kontaktieren</a>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-9">
+              <h2>Internistische Praxis</h2>
+              <p>
+                Ihre Gesundheit liegt uns am Herzen! Als erfahrener Arzt biete
+                ich Ihnen eine umfassende Betreuung, die weit über die
+                klassische Behandlung hinausgeht. Mit einem ganzheitlichen
+                Ansatz und individueller Beratung sorge ich dafür, dass Sie sich
+                rundum wohl und sicher fühlen. Ob Sie eine regelmäßige
+                Untersuchung, präventive Maßnahmen oder spezielle medizinische
+                Beratung suchen – hier sind Sie genau richtig. Lassen Sie uns
+                gemeinsam an Ihrer Gesundheit arbeiten, damit Sie sich stets
+                vital und gesund fühlen. Ich freue mich darauf, Sie auf Ihrem
+                Weg zu einem besseren Wohlbefinden zu begleiten!
+              </p>
+              <h4 class="mt-5">
+                Dr. med. Matthias Blauth Ihr Facharzt für Innere Medizin.
+              </h4>
+              <i class="fas fa-stethoscope leistung-icon"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HERO ENDE -->
+
+      <!-- Obere Welle -->
+      <div class="wave-divider top flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,100 C480,0 960,100 1440,0 L1440,100 L0,100 Z"
+            fill="var(--leistung)"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- LEISTUNGEN -->
+      <section class="leistungen">
+        <!-- <div class="container-fluid"> -->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 id="leistungen" class="display-6 text-end">Leistungen</h2>
+              <p class="text-end">
+                Hier finden Sie eine Übersicht über meine Leistungen.
+              </p>
+              <ul
+                class="leistungen-list d-flex justify-content-between flex-wrap mt-5"
+              >
+                <li class="leistung-box animate-left text-center">
+                  <i class="fas fa-stethoscope leistung-icon"></i>
+                  <span>Allgemeine Untersuchungen</span>
+                </li>
+                <li class="leistung-box animate-up text-center">
+                  <i class="fas fa-heartbeat leistung-icon"></i>
+                  <span>Präventivmedizin</span>
+                </li>
+                <li class="leistung-box animate-up text-center">
+                  <i class="fas fa-syringe leistung-icon"></i>
+                  <span>Impfungen</span>
+                </li>
+                <li class="leistung-box animate-right text-center">
+                  <i class="fas fa-house-user leistung-icon"></i>
+                  <span>Hausbesuche</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+      <!-- LEISTUNGEN ENDE -->
+
+      <!-- Untere Welle -->
+      <div class="wave-divider bottom flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"
+            fill="var(--leistung)"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- ÜBER MICH -->
+
+      <section id="über-mich" class="uber über-mich-section">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Über mich</h2>
+              <h3>Dr. med. Matthias Blauth – Ein Blick auf meine Reise</h3>
+
+              <div class="timeline">
+                <div
+                  class="timeline-item"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1984</span>
+                    <p>
+                      Der erste Schritt: Nach dem Abitur am
+                      Theodor-Heuss-Gymnasium in Ludwigshafen begann meine Reise
+                      in die Welt der Medizin.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1985</span>
+                    <p>
+                      Ich begann mein Medizinstudium an der
+                      Ruprecht-Karls-Universität Heidelberg und entwickelte ein
+                      starkes Interesse an Innerer Medizin.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1992</span>
+                    <p>
+                      Promotion zum Dr. med. nach intensiven Jahren des Studiums
+                      und der praktischen Arbeit.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1992 - 1994</span>
+                    <p>
+                      Erste klinische Erfahrungen im Klinikum der Stadt Mannheim
+                      und der Klinik Königstuhl in Heidelberg, mein Interesse an
+                      Innerer Medizin wuchs weiter.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1993</span>
+                    <p>
+                      Approbation und Fachkunde Rettungsdienst, um noch besser
+                      auf Notfälle reagieren zu können.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  <div class="timeline-content">
+                    <span class="year">1999</span>
+                    <p>
+                      Erhalt des Facharzttitels für Innere Medizin, mit dem
+                      Fokus auf eine umfassende Patientenversorgung.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="600"
+                >
+                  <div class="timeline-content">
+                    <span class="year">2002</span>
+                    <p>
+                      Eröffnung meiner eigenen Praxis in Östringen, um eine
+                      individuelle und persönliche Betreuung zu gewährleisten.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="timeline-item"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="700"
+                >
+                  <div class="timeline-content">
+                    <span class="year">2013</span>
+                    <p>
+                      Praxisumzug nach Bad, um meinen Patienten weiterhin
+                      erstklassige Versorgung in einer modernen und angenehmen
+                      Umgebung zu bieten.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ÜBER MICH ENDE -->
+
+      <!-- KONTAKT -->
+      <!-- Obere Welle -->
+      <div class="wave-divider top flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,100 C480,0 960,100 1440,0 L1440,100 L0,100 Z"
+            fill="var(--leistung)"
+          ></path>
+        </svg>
+      </div>
+      <section class="kontakt">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-6 mt-5">
+              <form action="">
+                <h2 id="kontakt">Kontakt</h2>
+                <p>Sie können mich jederzeit kontaktieren.</p>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-Mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Nachricht</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Absenden</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Untere Welle -->
+      <div class="wave-divider bottom flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"
+            fill="var(--leistung)"
+          ></path>
+        </svg>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Kontakt -->
+          <div class="col-md-4">
+            <h3>Kontakt</h3>
+            <p><a href="mailto:info@example.com">info@example.com</a></p>
+            <p><a href="tel:+123456789">+12 345 6789</a></p>
+          </div>
+
+          <!-- Rechtliches -->
+          <div class="col-md-4">
+            <h3>Rechtliches</h3>
+            <ul>
+              <li><a href="#">Impressum</a></li>
+              <li><a href="#">Datenschutz</a></li>
+              <li><a href="#">AGB</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <!-- Copyright -->
+          <div class="col-md-4 text-center">
+            <p>&copy; 2025 Dein Unternehmen. Alle Rechte vorbehalten.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: "ease-out",
+        once: true, // Animation only happens once
+      });
+    </script>
+  </body>
+</html>
