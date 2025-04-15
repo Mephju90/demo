@@ -3,7 +3,7 @@
 Dies ist eine einfache Portfolio-Website mit HTML, CSS und etwas JavaScript.  
 Sie zeigt meine aktuellen Fähigkeiten in Webdesign und Frontend-Entwicklung.
 
-🔗 **Live-Demo**: [mephju90.github.io/demo](https://mephju90.github.io/demo/index.html)
+🔗 **Live-Demo**: [mephju90.github.io/arztpraxis/](https://mephju90.github.io/arztpraxis/index.html)
 
 ## 🛠 Verwendete Technologien
 
