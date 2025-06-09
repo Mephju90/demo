@@ -5,11 +5,12 @@ Sie zeigt meine aktuellen Fähigkeiten in Webdesign und Frontend-Entwicklung.
 
 🔗 **Live-Demo**: [Hier ansehen](https://mephju90.github.io/arztpraxis/index.html)
 
-## 🛠 Verwendete Technologien
+## 🔧 Verwendete Technologien
 
 - HTML5
-- CSS3 (inkl. Flexbox und Grid)
-- JavaScript (Basis)
+- CSS3
+- Bootstrap
+- JavaScript 
 - GitHub Pages für Hosting
 
 ## 📂 Projektstruktur
